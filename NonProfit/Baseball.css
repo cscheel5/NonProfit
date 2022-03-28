@@ -1,0 +1,73 @@
+/*
+Blue - #002D72; only section backgrounds make text white
+Red - #D50032; only headings you want to stand out!
+
+ */
+
+body{
+    color: #000000;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+nav{
+    font-size: 23px;
+    text-align: center;
+    background-color: #002D72;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav a:hover{
+    transition: all .25s ease;
+    color: lightgrey;
+}
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;;
+    font-size: 50px;
+}
+h2{
+    color: #D50032;
+}
+h3{
+    color: black;
+}
+h4{
+    font-size: larger;
+    text-align: center;
+    color: #D50032;
+}
+dt{
+    color: #000000;
+}
+
+footer{
+    text-align: center;
+}
+p{
+    text-align: left;
+    font-size: large;
+}
+#wrapper{
+
+}
+#container{
+    text-align: center;
+    width: 100%;
+
+}
+
+#container img{
+    height: 50vh;
+
+}
+ul, li{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
